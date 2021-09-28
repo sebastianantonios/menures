@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.menu {
+    background: blue;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.toggle{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: 999;
+}
+@media screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+    .toggle{
+        display: block;
+    }
+}
+.menu a{
+    color: white;
+    padding: 20px 40px; 
+    display: inline-block;
+}
+@media screen and (max-width: 768px) {
+    .menu a{
+        display: block;
+    }
+    .mostrarocultar{
+        display: block;
+    }
+}
+.fondo{
+    width: 100%;
+}
+.fondo img{
+    width: 100%;
+}
